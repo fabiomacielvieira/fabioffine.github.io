@@ -1,0 +1,195 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #232B2B;
+    color: #ffffff;
+    
+}
+
+.corpo{
+    margin: 0 auto;
+    width: 960px;
+}
+
+
+h1, h2, h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #DC3D24;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+
+h2{
+    font-size: 22px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+a{
+    color: #E3AE57;
+}
+
+header, footer, .redes-sociais, .tecnologias{
+    text-align: center;
+}
+
+.mail{
+    width: 250px;
+    height: 20px;
+    display: inline-block;
+    padding-left: 21px;
+    background-image: url(email.png);
+    background-repeat: no-repeat;
+    text-align: left;
+}
+
+.telefone{
+    width: 250px;
+    height: 20px;
+    display: inline-block;
+    padding-left: 21px;
+    background-image: url(telefone.png);
+    background-repeat: no-repeat;
+    text-align: left;
+}
+
+.redes-sociais li{
+    display: inline-block;
+}
+
+.redes-sociais li a{
+    display: inline-block;
+}
+
+.ico{
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-indent: 7000px;
+    display: inline-block;
+}
+
+.linkedin{
+    background-image: url(linkedin.png);
+}
+.github{
+    background-image: url(github.png);
+}
+
+.facebook{
+    background-image: url(facebook.png);
+}
+
+.devcard{
+    background-image: url(devcard.png);
+}
+
+.projetos h3 {
+    text-align: center;
+}
+
+.projetos ul{
+    width: 700px;
+    margin: 0 auto;
+}
+
+.projetos li{
+    margin-bottom: 7px;
+    margin-top: 7px;
+    padding-left: 24px;
+    background-image: url(projetos.png);
+    background-repeat: no-repeat;
+}
+
+projetos li:hover{
+    background-image: url(projetos2.png);
+    color: #e35757;
+}
+
+a:hover{
+    color: #e35757;
+}
+
+h3{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ffffff;
+}
+
+.tecnologias ul {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.tecnologias li{
+    display: inline-block;
+    width: 150px;
+    padding: 8px;
+    margin: 3px;
+}
+
+.dev{
+    background-color: #1abc9c;
+    border: 2px solid #16a085
+}
+
+.dev:hover{
+    background-color: #16a085;
+}
+
+.app{
+    background-color: #2ecc71;
+    border: 2px solid #27ae60;
+}
+
+.app:hover{
+    background-color: #27ae60;
+}
+
+.design{
+    background-color: #3498db;
+    border: 2px solid #2980b9;
+}
+
+.design:hover{
+    background-color: #2980b9;
+}
+
+.banco{
+    background-color: #9b59b6;
+    border: 2px solid #8a44ad;
+}
+
+.banco:hover{
+    background-color: #8e44ad;
+}
+
+.sistema{
+    background-color: #34495e;
+    border: 2px solid #2c3e50;
+}
+
+.sistema:hover{
+    background-color: #2c3e50;
+}
+
+.web{
+    background-color: #e74c3c;
+    border: 2px solid #c0392b;
+}
+
+.web:hover{
+    background-color: #c0392b;
+}
+
+footer{
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    background-color: #DC3D24;
+    text-shadow: 0.5px 1.5px #232B2B;
+}
